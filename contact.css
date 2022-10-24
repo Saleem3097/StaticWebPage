@@ -1,0 +1,21 @@
+/* #contact_us{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.serChild{
+   flex-direction: column;
+   justify-content: space-evenly;
+   list-style: none;
+   border-radius: 20px;
+   margin: 5px;
+   padding: 15px;
+   width: 250px
+}
+
+.img{
+    width: 230px;
+    height: 200px;
+    object-fit: cover;
+} */

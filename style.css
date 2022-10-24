@@ -1,0 +1,137 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+body{
+    /* background-color: #242582; */
+    background-color: black;
+    /* background-image: url(./images/technology.jpg); */
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: var(--fontcolor);
+    font-weight: 50px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.hideMe:hover{
+    visibility: hidden;
+}
+
+:root{
+    --fontcolor:white;
+}
+
+/* #h1{
+    width: 70vw;
+    height: 20vh;
+    margin: 50px;
+    padding: 1px 50px 50px 5px;
+    font-size: 60px;
+    background-image:radial-gradient(grey grey);
+    border-radius: 20px 30px;
+    overflow: auto;
+    color: var(--fontcolor);
+} */
+/* p{
+    float: right;
+    clear: both;
+    font-size:20px;
+    padding-right: 2%;
+    height: 10vh;
+    width: 30%;
+} */
+#parent{
+    position: fixed;
+    background-color: rgb(111, 109, 109);
+    text-align: center;
+    width: 100%;
+   
+   }
+
+
+#List{
+    list-style-type: none;
+    overflow: auto;
+    display: inline-block;
+    justify-content: center;
+    margin-top: 30px;
+   
+}
+
+.nav{
+    font-size: 20px;
+    color:var(--fontcolor);
+    padding: 10px 15px;
+    float: left;
+    text-decoration: none;
+   
+}
+
+
+
+.nav:hover{
+    background-color: #F64C72;
+    color:black;
+    padding: 10px 15px;
+    float: left;
+    text-decoration: underline;
+}
+
+
+
+/*Styliing services we offeered element*/
+
+.flexLayout{
+    margin-top: 40px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.HeadingOfServices{
+    margin-top: 100px;
+   font-size: 30px;
+   flex-basis: 100%;
+   text-align: center;
+}
+.serChild{
+   flex-direction: column;
+   justify-content: space-evenly;
+   list-style: none;
+   margin: 5px;
+   padding: 15px;
+   border-radius: 20px;;
+}
+
+.img{
+    width: 230px;
+    height: 200px;
+    object-fit: cover;
+}
+
+/**Contact us*/
+
+#block{
+    width: 100%;
+    height: 400px;
+
+}
+
+.cChild{
+    justify-content: flex-start;
+    width: 50px;
+ }
+
+
+ /* Footer */
+
+ footer{
+    background-color: grey;
+    display: inline-block;
+    text-align: justify;
+    width: 100%;
+    height: auto;
+    padding: 3px;
+    opacity: .9;
+    padding: 20px 5px;
+ }
