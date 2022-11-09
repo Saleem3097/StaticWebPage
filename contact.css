@@ -19,3 +19,24 @@
     height: 200px;
     object-fit: cover;
 } */
+
+
+/* #h1{
+    width: 70vw;
+    height: 20vh;
+    margin: 50px;
+    padding: 1px 50px 50px 5px;
+    font-size: 60px;
+    background-image:radial-gradient(grey grey);
+    border-radius: 20px 30px;
+    overflow: auto;
+    color: var(--fontcolor);
+} */
+/* p{
+    float: right;
+    clear: both;
+    font-size:20px;
+    padding-right: 2%;
+    height: 10vh;
+    width: 30%;
+} */

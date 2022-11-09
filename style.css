@@ -4,14 +4,13 @@
 }
 
 body{
-    /* background-color: #242582; */
     background-color: black;
-    /* background-image: url(./images/technology.jpg); */
     background-repeat: no-repeat;
     background-size: cover;
     color: var(--fontcolor);
     font-weight: 50px;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
+    'Lucida Sans', Arial, sans-serif;
 }
 
 .hideMe:hover{
@@ -22,25 +21,6 @@ body{
     --fontcolor:white;
 }
 
-/* #h1{
-    width: 70vw;
-    height: 20vh;
-    margin: 50px;
-    padding: 1px 50px 50px 5px;
-    font-size: 60px;
-    background-image:radial-gradient(grey grey);
-    border-radius: 20px 30px;
-    overflow: auto;
-    color: var(--fontcolor);
-} */
-/* p{
-    float: right;
-    clear: both;
-    font-size:20px;
-    padding-right: 2%;
-    height: 10vh;
-    width: 30%;
-} */
 #parent{
     position: fixed;
     background-color: rgb(111, 109, 109);
@@ -48,7 +28,6 @@ body{
     width: 100%;
    
    }
-
 
 #List{
     list-style-type: none;
@@ -68,8 +47,6 @@ body{
    
 }
 
-
-
 .nav:hover{
     background-color: #F64C72;
     color:black;
@@ -80,7 +57,7 @@ body{
 
 
 
-/*Styliing services we offeered element*/
+/*Styliing services we offered element*/
 
 .flexLayout{
     margin-top: 40px;
@@ -101,7 +78,6 @@ body{
    margin: 5px;
    padding: 15px;
    border-radius: 20px;
-  
 }
 
 .img{
@@ -110,17 +86,9 @@ body{
     object-fit: cover;
 }
 
-#block{
-    background-color: grey;
-}
+
 
 /**Contact us*/
-
-#block{
-    width: 100%;
-    height: 400px;
-
-}
 
 .cChild{
     justify-content: flex-start;
