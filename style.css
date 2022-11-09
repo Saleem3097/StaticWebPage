@@ -100,13 +100,18 @@ body{
    list-style: none;
    margin: 5px;
    padding: 15px;
-   border-radius: 20px;;
+   border-radius: 20px;
+  
 }
 
 .img{
     width: 230px;
     height: 200px;
     object-fit: cover;
+}
+
+#block{
+    background-color: grey;
 }
 
 /**Contact us*/
@@ -121,6 +126,25 @@ body{
     justify-content: flex-start;
     width: 50px;
  }
+ @keyframes changecolor{
+    0%{
+        color: red;
+    }
+ }
+ .nav1{
+    text-decoration: none;
+    animation-name:changecolor ;
+    animation-iteration-count: infinite;
+    animation-delay: 2s;
+    animation-duration: 2s;
+    color: var(--fontcolor);
+ }
+
+ .nav1:hover{
+    text-decoration: underline;
+    display: inline-block;
+}
+
 
 
  /* Footer */
